@@ -27,7 +27,7 @@ class MyCart extends StatelessWidget {
               TextFormField (
                 controller: _controller,
               ),
-              SizedBox(height: 12,),
+              const SizedBox(height: 12,),
               ElevatedButton(
                   onPressed: (){
                     model.add(
