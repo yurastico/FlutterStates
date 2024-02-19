@@ -37,7 +37,7 @@ class MyHomePage extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         actions: [
-          IconButton(onPressed: Provider.of<CounterModel>(context,listen: false).reset(), 
+          IconButton(onPressed: Provider.of<CounterModel>(context,listen: false).reset, 
           icon: const Icon(Icons.refresh))
         ],
       ),
